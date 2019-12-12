@@ -1,0 +1,122 @@
+
+body {
+    background-color: black;
+    margin: 0;
+}
+
+.title {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 3em;
+    border-bottom: solid white 2px;
+}
+
+.logo {
+    width: 600px;
+}
+.title_descr {
+    color: white;
+    margin: 0;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Orbitron";
+    font-style: normal;
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 26.4px
+}
+
+main {
+    display: flex;
+}
+
+
+
+.buttonDiv {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right: solid white 2px;
+    
+}
+
+button {
+    width: 150px;
+    height: 80px;
+    color: white;
+    font-size: 2em;
+    border-radius: 8px;
+}
+
+.ZergButton {
+    background-color: green;
+    border-color: darkgreen;
+    margin-top: 150px;   
+    position: -webkit-sticky;
+    position: sticky;
+    top: 26%;
+}
+
+.ProtossButton {
+    background-color: blue;
+    border-color: darkblue;
+    margin-top: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 27rem;
+}
+
+.TerranButton {
+    background-color: red;
+    border-color: darkred;
+    margin-top: 100px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 38rem;
+}
+
+.infoDiv {
+    color: white;
+    padding-top: 70px;
+    padding-left: 5%;
+    width: 75%;
+    display:grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-column-gap: 250px;
+    grid-auto-rows: max-content;
+    grid-row-gap: 100px;
+}
+
+.unitDiv {
+    width: 210px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+#zergUnit {
+    background-color: green;
+    height: 250px;
+    width: 200px;
+    border: solid green 5px;
+}
+
+#zergUnit h2 {
+    margin: 0;
+    padding-top: 10px;
+}
+
+#protossUnit {
+    width: 200px;
+    border: solid blue 5px;
+}
+#terranUnit {
+    width: 200px;
+    border: solid red 5px;
+}
