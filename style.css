@@ -65,7 +65,7 @@ button {
     margin-top: 100px;
     position: -webkit-sticky;
     position: sticky;
-    top: 27rem;
+    top: 26rem;
 }
 
 .TerranButton {
@@ -74,7 +74,7 @@ button {
     margin-top: 100px;
     position: -webkit-sticky;
     position: sticky;
-    top: 38rem;
+    top: 37rem;
 }
 
 .infoDiv {
@@ -113,6 +113,8 @@ img {
 }
 
 #protossUnit {
+    background-color: blue;
+    height: 250px;
     width: 200px;
     border: solid blue 5px;
 }
